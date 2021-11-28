@@ -1,0 +1,95 @@
+*
+{
+    text-decoration: none;
+    color:black;
+}
+#menubar
+    {
+        background : peachpuff;
+    }
+#menubar ul { 
+   margin : 0;
+   padding : 0;
+   width : 100%; 
+}
+#menubar ul li {
+   display : inline-block; 
+   list-style-type : none; 
+   padding : 0px 15px; 
+}
+#menubar ul li a {
+   color : black;
+     text-decoration : none; 
+}
+#menubar ul li a:hover {
+    color : white;  
+}
+#search
+{
+    position:relative; /*고정값*/ 
+    left:1620px;
+    width:fit-content;
+}
+#mainfont {
+    font-size:15px;
+}
+#idpw{
+    position:relative;
+    left:1428px;
+    width:fit-content;
+}
+
+/*음식 아이콘 사진 설정*/
+
+ #Mainlogo
+{
+    width: 150px;
+    height: 150px;
+    margin-left:40%;
+} 
+
+#mainBackground
+{
+    background-color:white;
+    height: 150px;
+
+}
+
+#Fontsize
+{
+    padding: 100px 0px;
+    font-weight:normal;
+}
+
+#mainphoto
+{
+    margin-left: 40%;
+}
+
+table 
+{
+    font-size: 50px;
+    width: 100%;
+    margin:0;
+}
+table tr
+{
+    text-align: center;
+}
+
+table tr td a img /* 메뉴 사진 크기조절*/
+{
+    width:150px;
+    height: 150px;
+}
+
+div a h1
+{
+    text-align: center;
+    
+
+}
+
+b{
+    text-align:center;
+}
