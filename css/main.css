@@ -1,0 +1,75 @@
+*
+{
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+body
+{
+    position: relative;
+}
+  
+  .title{
+      position: absolute;
+      bottom: 950px;
+      text-align: center;
+      left: 38%;
+      font-size: 70px;
+      color:black;
+      
+
+  }
+
+.gnb-menu
+{
+    position: absolute;
+    bottom: 93vh;
+    font-size: 30px;
+    display:inline-block;
+    align-items: center;
+    left: 33.3%;
+
+
+}
+
+.gnb-menu a 
+{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    padding:30px 10px;
+    position: relative;
+    margin: 0;
+}
+.gnb-menu a::after {
+
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: black;
+    transition: all .5s ease-in;
+}
+
+
+ 
+.gnb-menu a:hover::after{
+    width:100%;
+}
+
+
+#videoDiv {
+    position: absolute;
+    bottom: 500px;
+    width:600px;
+    height: 30%;
+    margin: 0;
+    left: 660px;
+
+}
+

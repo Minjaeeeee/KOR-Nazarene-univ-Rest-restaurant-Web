@@ -1,0 +1,111 @@
+*
+{
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+
+
+
+ .titlemenu li
+{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    position: relative;   
+    margin-bottom: 0px;
+   
+} 
+
+
+.titlemenu li::after {
+
+    content: "";
+    position:absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-46%);
+    width: 0;
+    height: 3px;
+    background: white;
+    transition: all .5s ease-in;
+}
+
+
+ 
+.titlemenu li:hover::after{
+    width:100%;
+}
+
+.titlemenu a
+{
+    text-decoration: none;
+    color: white;
+} 
+
+
+
+
+.titlemenu
+{
+    position: fixed;
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+.searchbar
+{
+    display: flex;
+    height: 30px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 580px;
+}
+
+
+
+ul
+{
+    display: flex;
+    list-style: none;
+}
+
+
+ul li
+{
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 22px;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.newsmain
+{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.background
+{
+    height: 100%;
+    width: 100%;
+    display: ;
+}
